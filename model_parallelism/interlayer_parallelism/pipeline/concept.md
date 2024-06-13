@@ -9,3 +9,4 @@
 ## Interleaved Layers
 
 1. Definition: Reuse idle servers/nodes to process next layers of the model.
+2. Problems: Not suitable for skip-connection layers/residual layers.
