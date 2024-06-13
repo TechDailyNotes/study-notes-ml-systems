@@ -12,12 +12,6 @@
    1. Definition: Accumulate gradients from multiple GPUs to 1 GPU in the divide-and-conquer strategy.
 3. All-Reduce operator
    1. Definition: Reduce operator followed by Broadcast operator.
-   2. Specification
-      1. Basic All-Reduce: Reduce + Broadcast
-      2. Distributed Optimization All-Reduce
-         1. Reduce: Accumulate gradients from all nodes.
-         2. Update: Update 1/N weights on each node.
-         3. Broadcast: Broadcast updated weights to all nodes.
 
 ## Others
 
